@@ -9,11 +9,12 @@
 // import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 
 // import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
-import List from "./tutorial/05-leverage-javascript/starter/List";
+// import List from "./tutorial/05-leverage-javascript/starter/List";
+import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs";
 function App() {
   return (
     <div className="container">
-      <List />
+      <ControlledInputs />
     </div>
   );
 }
