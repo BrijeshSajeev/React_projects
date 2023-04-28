@@ -9,8 +9,13 @@
 // import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 
 // import UserChallenge from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+import List from "./tutorial/05-leverage-javascript/starter/List";
 function App() {
-  return <div className="container"></div>;
+  return (
+    <div className="container">
+      <List />
+    </div>
+  );
 }
 
 export default App;
