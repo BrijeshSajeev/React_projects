@@ -22,9 +22,10 @@
 // import Starter from "./tutorial/09-context-api/starter";
 // import Navbar from "./tutorial/09-context-api/starter/Navbar";
 // import Navbar_final from "./tutorial/09-context-api/starter/context/Navbar";
-import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
+// import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
+import LowerState from "./tutorial/11-performance/starter/01-lower-state";
 function App() {
-  return <ReducerBasics />;
+  return <LowerState />;
 }
 
 export default App;
