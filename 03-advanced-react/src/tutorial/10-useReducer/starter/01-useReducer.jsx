@@ -1,25 +1,9 @@
 import React, { useReducer } from "react";
 import { data } from "../../../data";
+import { CLEAR_LIST, RESET_LIST, REMOVE_ITEM } from "./action";
+import reducer from "./reducer";
 const defaultState = {
   people: data,
-};
-
-const reducer = (state, action) => {
-  switch (action.type) {
-    case "CLEAR_LIST":
-      return { ...state, people: [] };
-    case "RESET_LIST":
-      return { ...state, people: data };
-    case "REMOVE_ITEM":
-      const newPeople = state.people.filter(
-        (person) => person.id !== action.id
-      );
-      return { ...state, people: newPeople };
-    // console.log(newPeople);
-    // return { ...state };
-    default:
-      break;
-  }
 };
 
 const ReducerBasics = () => {
@@ -28,16 +12,16 @@ const ReducerBasics = () => {
   const removeItem = (id) => {
     // let newPeople = people.filter((person) => person.id !== id);
     // setPeople(newPeople);
-    dispatch({ type: "REMOVE_ITEM", id });
+    dispatch({ type: REMOVE_ITEM, id });
   };
 
   const clearList = () => {
     // setPeople([]);
-    dispatch({ type: "CLEAR_LIST" });
+    dispatch({ type: CLEAR_LIST });
   };
   const resetList = () => {
     // setPeople(data);
-    dispatch({ type: "RESET_LIST" });
+    dispatch({ type: RESET_LIST });
   };
   return (
     <div className="container">
