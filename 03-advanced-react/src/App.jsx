@@ -20,16 +20,11 @@
 // import ToggleExample from "./tutorial/08-custom-hooks/starter/01-toggle";
 // import FetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 // import Starter from "./tutorial/09-context-api/starter";
-import Navbar from "./tutorial/09-context-api/starter/Navbar";
-import Navbar_final from "./tutorial/09-context-api/final/context/Navbar";
-
+// import Navbar from "./tutorial/09-context-api/starter/Navbar";
+// import Navbar_final from "./tutorial/09-context-api/starter/context/Navbar";
+import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
 function App() {
-  return (
-    <>
-      <Navbar_final />
-      <Navbar />
-    </>
-  );
+  return <ReducerBasics />;
 }
 
 export default App;
