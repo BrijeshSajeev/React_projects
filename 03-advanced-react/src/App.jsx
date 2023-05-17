@@ -24,7 +24,7 @@
 // import Navbar_final from "./tutorial/09-context-api/starter/context/Navbar";
 // import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
 // import LowerState from "./tutorial/11-performance/starter/01-lower-state";
-import LowerStateChallenge from "./tutorial/11-performance/starter/02-lower-state-challenge";
+// import LowerStateChallenge from "./tutorial/11-performance/starter/02-lower-state-challenge";
 function App() {
   return <LowerStateChallenge />;
 }
