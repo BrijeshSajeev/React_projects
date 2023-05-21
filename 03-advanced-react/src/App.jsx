@@ -25,8 +25,9 @@
 // import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
 // import LowerState from "./tutorial/11-performance/starter/01-lower-state";
 // import LowerStateChallenge from "./tutorial/11-performance/starter/02-lower-state-challenge";
+import Counter from "./tutorial/11-performance/starter/01-lower-state/Counter";
 function App() {
-  return <LowerStateChallenge />;
+  return <Counter />;
 }
 
 export default App;
